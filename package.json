@@ -1,0 +1,28 @@
+{
+    "name": "titlecase",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "preact": "^10.11.3",
+        "prettier": "^2.8.3",
+        "prettier-plugin-tailwindcss": "^0.2.2"
+    },
+    "devDependencies": {
+        "@preact/preset-vite": "^2.4.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/lodash": "^4.14.191",
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^3.2.4",
+        "typescript": "^4.9.3",
+        "vite": "^4.0.0"
+    }
+}
